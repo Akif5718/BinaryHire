@@ -8,7 +8,7 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 import { Tooltip } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import avatar from '../assets/data/avatar.jpg';
-import logo from '../assets/data/brand-logo.png';
+import logo from '../assets/data/logo.png';
 import Cart from './Cart';
 import Chat from './Chat';
 import Notification from './Notification';
@@ -140,9 +140,9 @@ const Navbar = () => {
           navigate(`/`);
         }}
       >
-        <img src={logo} alt="Brand Logo" className="h-16 w-16" />{' '}
+        <img src={logo} alt="Brand Logo" className="h-16 " />{' '}
         {/* Logo container */}
-        <h3 className="ml-4 text-white cursor-pointer">Care Edu Compass</h3>
+        {/* <h3 className="ml-4 text-white cursor-pointer">Care Edu Compass</h3> */}
       </div>
 
       <div className="flex justify-end items-center">

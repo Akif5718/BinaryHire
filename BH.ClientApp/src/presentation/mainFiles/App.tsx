@@ -41,8 +41,8 @@ import Home from '../pages/Home/Home';
 // import ForgotPassword from '../pages/Login/ForgotPasswordCompanyLocationSelect';
 
 import SearchPage from '../pages/SearchPage/SearchPage';
-import SignUp from '../pages/Login/SignUp/SignUp';
-import SignIn from '../pages/Login/SignIn/SignIn';
+import SignUp from '../pages/Auth/SignUp/SignUp';
+import SignIn from '../pages/Auth/SignIn/SignIn';
 import Footer from '../components/Footer';
 import UserProfile from '../pages/UserProfile/UserProfile';
 import UserManagement from '../pages/UserManagement/UserManagement';
@@ -169,7 +169,7 @@ const App = () => {
                 <div
                   onClick={() => hideAllOpened()}
                   onKeyDown={() => hideAllOpened()}
-                  role="button"
+                  // role="button"
                   tabIndex={0}
                 >
                   <Suspense fallback={<h1>LOADING............HAHA</h1>}>
