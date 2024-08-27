@@ -48,7 +48,7 @@ export const AccountApiSlice = createApi({
         body: objToSend,
       }),
       async onQueryStarted(arg, { queryFulfilled }) {
-        console.log('Mutation triggered');
+       
         try {
           const { data } = await queryFulfilled;
           // Save the response to localStorage
