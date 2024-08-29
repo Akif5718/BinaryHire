@@ -130,7 +130,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex z-[100000000] justify-between p-2 bg-[#010E2C] shadow-md backdrop-blur fixed top-0 w-full bg transition-transform duration-500 ${
+      className={`flex z-[100000000] justify-between md:px-16 lg:px-16 xl:px-16 py-2 bg-[#010E2C] shadow-md backdrop-blur fixed top-0 w-full bg transition-transform duration-500 ${
         scrollNavbarShow && showNavbar ? 'translate-y-0' : '-translate-y-full'
       }`}
     >
@@ -142,7 +142,7 @@ const Navbar = () => {
       >
         <img src={logo} alt="Brand Logo" className="h-16 " />{' '}
         {/* Logo container */}
-        {/* <h3 className="ml-4 text-white cursor-pointer">Care Edu Compass</h3> */}
+        <h2 className="ml-4 text-white cursor-pointer">Binary Hire</h2>
       </div>
 
       <div className="flex justify-end items-center">

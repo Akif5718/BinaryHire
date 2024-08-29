@@ -8,6 +8,15 @@ module.exports = {
       body: ['Open Sans', 'sans-serif'],
     },
     extend: {
+      keyframes: {
+        fadeInOut: {
+          '0%, 100%': { opacity: 0 },
+          '50%': { opacity: 1 },
+        },
+      },
+      animation: {
+        fadeInOut: 'fadeInOut 3s ease-in-out infinite',
+      },
       fontSize: {
         14: '14px',
       },
